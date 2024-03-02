@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Course Manager App</title>
+</head>
+<body>
+    <h1>Course Manager</h1>
+    <p style="font-size:24px">To get API views you can go to this urls: </p>
+    <ul>
+        <li>Products: <a href="{% url 'products_api-list' %}">Products API</a> </li>
+        <li>Allowed Lessons: <a href="{% url 'lessons_api' %}">Lessons API</a> </li>
+        <li>Detail Product info: <a href="{% url 'detail_product-list' %}">Detail Product API</a></li>
+        <li>Registration of new user: <a href="{%url 'registration' %}">Users signup form</a></li>
+    </ul>
+</body>
+</html>
